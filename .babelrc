@@ -5,6 +5,7 @@
       "root": ["./src"],
       "alias": {
         "middlewares": "./middlewares",
+        "controllers": "./controllers",
         "underscore": "lodash"
       }
     }]
