@@ -4,8 +4,8 @@ import http from 'http'
 import socketIO from 'socket.io'
 import compression from 'compression'
 
-import middlewares from './middlewares'
-import routes from './routes'
+import middlewares from 'middlewares'
+import routes from 'routes'
 
 const app = express()
 const server = http.createServer(app)
