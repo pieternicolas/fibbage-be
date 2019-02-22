@@ -2,7 +2,7 @@
   "name": "fibbage-be",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development nodemon --exec babel-node server.js",
